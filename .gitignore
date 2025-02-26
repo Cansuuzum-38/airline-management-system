@@ -1,0 +1,9 @@
+# Sanal ortamı hariç tut
+venv/
+__pycache__/
+db.sqlite3
+
+# IDE ve sistem dosyalarını hariç tut
+*.log
+*.pyc
+.DS_Store
