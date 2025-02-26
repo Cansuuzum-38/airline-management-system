@@ -12,7 +12,7 @@ Bu proje, bir havayolu şirketinin uçaklarını, uçuşlarını ve rezervasyonl
 git clone <repo_link>
 cd airline_management
 python -m venv venv
-source venv/bin/activate  # Windows için: venv\Scripts\activate
+venv\Scripts\activate  # MAC için:source venv/bin/activate
 ```
 
 ### 2️) Gerekli Kütüphaneleri Yükle
