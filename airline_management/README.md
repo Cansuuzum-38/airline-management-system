@@ -1,12 +1,12 @@
 # ✈️ Airline Management System
 
-## 📌 Proje Açıklaması
+##  Proje Açıklaması
 
 Bu proje, bir havayolu şirketinin uçaklarını, uçuşlarını ve rezervasyonlarını yönetmesini sağlayan bir **REST API** geliştirmektedir. **Django Rest Framework (DRF)** kullanılarak geliştirilmiştir.
 
-## 🚀 Kurulum
+## Kurulum
 
-### 1️⃣ Depoyu Klonla ve Sanal Ortamı Başlat
+### 1) Depoyu Klonla ve Sanal Ortamı Başlat
 
 ```bash
 git clone <repo_link>
@@ -15,26 +15,26 @@ python -m venv venv
 source venv/bin/activate  # Windows için: venv\Scripts\activate
 ```
 
-### 2️⃣ Gerekli Kütüphaneleri Yükle
+### 2️) Gerekli Kütüphaneleri Yükle
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Veritabanını Ayarla
+### 3️) Veritabanını Ayarla
 
 ```bash
 python manage.py makemigrations api
 python manage.py migrate
 ```
 
-### 4️⃣ Admin Kullanıcısı Oluştur
+### 4️)  Admin Kullanıcısı Oluştur
 
 ```bash
 python manage.py createsuperuser
 ```
 
-### 5️⃣ Sunucuyu Çalıştır
+### 5️)  Sunucuyu Çalıştır
 
 ```bash
 python manage.py runserver
@@ -42,9 +42,9 @@ python manage.py runserver
 
 ---
 
-## 📌 API Kullanımı
+## API Kullanımı
 
-### ✈️ **Airplane Endpoints**
+###  **Airplane Endpoints**
 
 | Metot  | URL                    | Açıklama                             |
 | ------ | ---------------------- | ------------------------------------ |
@@ -54,7 +54,7 @@ python manage.py runserver
 | PATCH  | `/api/airplanes/{id}/` | Belirli bir uçağı güncelle           |
 | DELETE | `/api/airplanes/{id}/` | Belirli bir uçağı sil                |
 
-### 🛩 **Flight Endpoints**
+###  **Flight Endpoints**
 
 | Metot  | URL                  | Açıklama                             |
 | ------ | -------------------- | ------------------------------------ |
@@ -64,7 +64,7 @@ python manage.py runserver
 | PATCH  | `/api/flights/{id}/` | Belirli bir uçuşu güncelle           |
 | DELETE | `/api/flights/{id}/` | Belirli bir uçuşu sil                |
 
-### 🎟️ **Reservation Endpoints**
+###  **Reservation Endpoints**
 
 | Metot  | URL                       | Açıklama                          |
 | ------ | ------------------------- | --------------------------------- |
@@ -76,16 +76,16 @@ python manage.py runserver
 
 ---
 
-## 🛠 Özellikler
+## Özellikler
 
-✅ **Uçuş Çakışma Kontrolü:** Aynı uçak için uçuş saatleri çakışamaz.\
-✅ **Kapasite Kontrolü:** Uçuş dolu olduğunda rezervasyon yapılamaz.\
-✅ **Benzersiz Rezervasyon Kodu:** 8 karakterli rezervasyon kodu otomatik oluşturulur.\
-✅ **Postman Collection Dahil!**
+**Uçuş Çakışma Kontrolü:** Aynı uçak için uçuş saatleri çakışamaz.\
+**Kapasite Kontrolü:** Uçuş dolu olduğunda rezervasyon yapılamaz.\
+**Benzersiz Rezervasyon Kodu:** 8 karakterli rezervasyon kodu otomatik oluşturulur.\
+**Postman Collection Dahil**
 
 ---
 
-## 📌 Postman API Test Dosyası
+## Postman API Test Dosyası
 
 📌 **Postman Collection dosyasını kullanarak API'yi test edebilirsin.**\
 📌 Dosya: `Airline_Management.postman_collection.json`\
