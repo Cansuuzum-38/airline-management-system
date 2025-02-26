@@ -98,8 +98,7 @@ python manage.py runserver
 
 ---
 
-## **🔗 Proje Linkleri**
+## ** Proje Linkleri**
 
-- **GitHub Repository:** `<repo_link>`
 - **Postman Collection:** [Download Here](Airline_Management.postman_collection.json)
 
