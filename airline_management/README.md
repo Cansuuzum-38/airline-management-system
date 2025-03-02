@@ -89,14 +89,7 @@ python manage.py runserver
 
 📌 **Postman Collection dosyasını kullanarak API'yi test edebilirsin.**\
 📌 Dosya: `Airline_Management.postman_collection.json`\
-📌 **Postman'e yüklemek için:**
 
-1. **Postman’i aç.**
-2. **"Import" butonuna bas.**
-3. **Dosyayı seç ve yükle.**
-4. **İstekleri test etmeye başla!**
-
----
 
 ## ** Proje Linkleri**
 
